@@ -26,7 +26,7 @@ body{background:#ffffff;color:#000;scroll-behavior:smooth;}
   transition:0.3s;
   box-shadow:0 5px 25px rgba(255,106,0,0.4);
   display:inline-block;
-  text-decoration: none; /* REMOVE A SUBLINHA */
+  text-decoration:none; /* Remove sublinhado */
 }
 .btn:hover{
   background:var(--accent-dark);
@@ -387,6 +387,7 @@ footer a:hover{color:#000;}
 }
 
 @keyframes fadeInUp{0%{opacity:0;transform:translateY(30px);}100%{opacity:1;transform:translateY(0);}}
+
 @media(max-width:768px){
   .navbar ul{display:none;flex-direction:column;background:#fff;position:absolute;top:70px;right:0;width:200px;padding:20px;border-radius:10px;}
   .navbar ul.active{display:flex;}
@@ -394,7 +395,31 @@ footer a:hover{color:#000;}
   .hamburger span{background:var(--accent);}
   .preco-wrapper{flex-direction:column;gap:30px;}
   .preco-texto{text-align:center;}
+
+  /* Hero Responsivo Ajustado */
+  .hero{
+    flex-direction:column;
+    height:auto;
+    padding:40px 20px;
+  }
+  .hero-img{
+    order:-1;
+    max-width:90%;
+    width:300px;
+    margin-bottom:20px;
+  }
+  .hero-content{
+    text-align:center;
+    max-width:100%;
+  }
+  .hero h1{
+    font-size:2rem;
+  }
+  .hero p{
+    font-size:1rem;
+  }
 }
+
 </style>
 </head>
 <body>
@@ -558,4 +583,5 @@ learnCards.forEach(card=>observer.observe(card));
 
 </body>
 </html>
+
 
