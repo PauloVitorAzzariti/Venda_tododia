@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>E-Book Bolos Caseiros</title>
+<title>Bolo Bom a Bessa - eBook Bolos Caseiros</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
@@ -420,6 +420,52 @@ footer a:hover{color:#000;}
   }
 }
 
+/* =============================
+   ESTILO DEPOIMENTOS
+============================= */
+.testimonials {
+  padding: 80px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.testimonials .section-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.testimonials .section-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.testimonial-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-card img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+
 </style>
 </head>
 <body>
@@ -441,8 +487,8 @@ footer a:hover{color:#000;}
 
 <section class="hero">
   <div class="hero-content">
-    <h1>Transforme sua Paixão por Bolos em Renda Diária!</h1>
-    <p>Aprenda receitas exclusivas e técnicas profissionais para criar bolos irresistíveis e lucrativos todos os dias.</p>
+    <h1>+100 Receitas, Segredos e Estratégias para uma Confeitaria Lucrativa.</h1>
+    <p>Massas incríveis, recheios, geleias, caldas e até estratégias de vendas para transformar sua paixão em renda todos os dias.</p>
     <a href="#preco" class="btn">Quero meu eBook!</a>
   </div>
   <div class="hero-img">
@@ -456,57 +502,99 @@ footer a:hover{color:#000;}
   </div>
   <div class="sobre-texto">
     <h2>Sobre o eBook</h2>
-    <p>Aprenda receitas detalhadas e técnicas que irão transformar sua cozinha em uma fonte de renda. Conteúdo passo a passo para qualquer nível de habilidade.</p>
+    <p><p>Este não é apenas um livro de receitas, é um guia completo para você que deseja viver de confeitaria. 
+      Você vai aprender desde a função de cada ingrediente, validade e embalagens, até massas exclusivas como Red Velvet, 
+      Brownie, Pão de Mel, Churros e muito mais. Também incluímos geleias, caldas e dicas de marketing para você montar um cardápio irresistível e vender todos os dias.</p>
   </div>
 </section>
 
 <section id="boleira" class="sobre container">
   <div class="sobre-texto">
     <h2>Sobre a mim</h2>
-    <p>Conheça a profissional por trás das receitas, com anos de experiência e dicas exclusivas que vão te ajudar a lucrar desde o primeiro bolo.</p>
+    <p>Sou Mariana Antum, professora de confeitaria formada, e há mais de 10 anos caminho pela doce e desafiadora jornada da confeitaria. Para mim, a confeitaria não é apenas profissão: é o meu ministério, o propósito pelo qual fui chamada. Cada bolo, cada doce e cada receita que compartilho vai muito além de técnicas e ingredientes. O que eu entrego é transformação de vida.
+Aprendi, ao longo da minha trajetória, que a cozinha não é apenas um espaço para preparar sobremesas, mas um lugar onde sonhos podem nascer, crescer e se tornar um negócio lucrativo todos os dias. É nesse espaço que ensino pessoas comuns a descobrirem seu valor, conquistarem sua independência e escreverem uma nova história através da confeitaria.
+Não compartilho apenas receitas, compartilho esperança, propósito e mudança. A cada aula, a cada bolo decorado, a cada detalhe, minha missão é provar que a confeitaria é capaz de adoçar vidas e abrir portas que antes pareciam inalcançáveis.
+A minha história é feita de fé, dedicação e muita doçura, mas o verdadeiro sabor está em ver vidas sendo transformadas. 🍰✨</p>
   </div>
   <div class="sobre-img">
     <img src="img/FOTO.JPG" alt="Boleira">
   </div>
-</section>
-
-<section class="carrossel container">
-  <h2>Nossos Bolos Deliciosos</h2>
   <div class="carousel-wrapper">
     <div class="carousel-track">
-      <img src="img/Bolo1.HEIC" alt="Bolo 1">
-      <img src="img/Bolo2.HEIC" alt="Bolo 2">
-      <img src="img/Bolo3.HEIC.JPG" alt="Bolo 3">
-      <img src="img/Bolo4.JPG" alt="Bolo 4">
-      <img src="img/Bolo5.HEIC" alt="Bolo 5">
-      <img src="img/Bolo1.HEIC" alt="Bolo 1">
-      <img src="img/Bolo2.HEIC" alt="Bolo 2">
+      <img src="img/9.jpg" alt="Bolo 1">
+      <img src="img/10.jpg" alt="Bolo 1">
+      <img src="img/11.jpg" alt="Bolo 1">
+      <img src="img/12.jpg" alt="Bolo 1">
+      <img src="img/9.jpg" alt="Bolo 1">
+      <img src="img/10.jpg" alt="Bolo 1">
+      <img src="img/11.jpg" alt="Bolo 1">
+      <img src="img/12.jpg" alt="Bolo 1">
     </div>
   </div>
 </section>
 
-<section id="learn" class="container">
-  <h2>O que você vai aprender</h2>
-  <div class="learn-cards">
-    <div class="learn-card"><h4>Receitas Exclusivas</h4><p>Aprenda receitas que realmente vendem.</p></div>
-    <div class="learn-card"><h4>Técnicas Profissionais</h4><p>Dicas que só quem já vende bolos conhece.</p></div>
-    <div class="learn-card"><h4>Gestão de Negócio</h4><p>Como precificar e lucrar desde o primeiro bolo.</p></div>
-    <div class="learn-card"><h4>Design de Bolos</h4><p>Bolos visualmente irresistíveis que aumentam vendas.</p></div>
+<section class="carrossel container">
+  <h2>Algumas das Delícias que Você Vai Aprender</h2>
+  <div class="carousel-wrapper">
+    <div class="carousel-track">
+      <img src="img/1.jpg" alt="Bolo 1">
+      <img src="img/2.jpg" alt="Bolo 2">
+      <img src="img/4.jpg" alt="Bolo 3">
+      <img src="img/5.jpg" alt="Bolo 4">
+      <img src="img/6.jpg" alt="Bolo 5">
+      <img src="img/7.jpg" alt="Bolo 1">
+      <img src="img/8.jpg" alt="Bolo 2">
+    </div>
+  </div>
+<div class="learn-cards">
+<div class="learn-card"><h4>Massas Exclusivas</h4><p>Mais de 30 massas incríveis: Red Velvet, Brownie, Pão de Mel, Mirtilo, Churros e muito mais.</p></div>
+<div class="learn-card"><h4>Recheios e Geleias</h4><p>Receitas de geleias e caldas para elevar o sabor e encantar clientes.</p></div>
+<div class="learn-card"><h4>Gestão & Lucro</h4><p>Como precificar, conservar e escolher embalagens que valorizam seu trabalho.</p></div>
+<div class="learn-card"><h4>Marketing de Confeitaria</h4><p>Dicas práticas de redes sociais e cardápio lucrativo para vender todos os dias.</p></div>
+</div>
+
+</section>
+
+
+<!-- =============================
+     SEÇÃO DE DEPOIMENTOS
+============================= -->
+<section id="depoimentos" class="testimonials">
+  <div class="container">
+    <h2 class="section-title">O que os meus clientes e alunas dizem</h2>
+    <p class="section-subtitle">Confira alguns depoimentos reais de quem já comprou e aprendeu comigo:</p>
+    
+    <div class="testimonials-grid">
+      <!-- Cada box é um print de comentário -->
+      <div class="testimonial-card">
+        <img src="img/Depoimentos2.jpeg" alt="Depoimento de cliente 1">
+      </div>
+      <div class="testimonial-card">
+        <img src="img/Depoimentos3.jpeg" alt="Depoimento de cliente 2">
+      </div>
+      <div class="testimonial-card">
+        <img src="img/Depoimentos4.jpeg" alt="Depoimento de cliente 3">
+      </div>
+      <div class="testimonial-card">
+        <img src="img/Depoimentos5.jpeg" alt="Depoimento de cliente 3">
+      </div>
+      <div class="testimonial-card">
+        <img src="img/Depoimentos1.jpeg" alt="Depoimento de cliente 3">
+      </div>
+      <div class="testimonial-card">
+        <img src="img/Depoimentos6.jpeg" alt="Depoimento de cliente 2">
+      </div>
+      <div class="testimonial-card">
+        <img src="img/Depoimentos7.jpeg" alt="Depoimento de cliente 3">
+      </div>
+      <div class="testimonial-card">
+        <img src="img/Depoimentos8.jpeg" alt="Depoimento de cliente 3">
+      </div>
+      <!-- Adicione quantos precisar -->
+    </div>
   </div>
 </section>
 
-<!-- Preço com texto ao lado -->
-<section id="preco" class="container preco-wrapper">
-  <div class="preco-card">
-    <img src="img/inicial.png" alt="eBook Bolos Caseiros">
-    <h3>R$ 97,00</h3>
-    <p>Pagamento único. Receba imediatamente após a compra.</p>
-    <a href="https://wa.me/5599999999999" class="btn">Comprar Agora</a>
-  </div>
-  <div class="preco-texto">
-    <p>Tenha Acesso Ainda Hoje A Nossa Incrível Técnica Plissê e comece a Vender Todos os Dias bolos caseiros gourmet… mesmo que você seja uma completa iniciante!</p>
-  </div>
-</section>
 
 <section id="guarantee" class="guarantee">
   <img src="img/Selo_de_garantia.png" alt="Garantia">
@@ -518,6 +606,13 @@ footer a:hover{color:#000;}
   <h2>Perguntas Frequentes</h2>
   <button class="accordion">Como recebo o eBook?</button>
   <div class="panel"><p>Após a confirmação do pagamento, você recebe o link de download no seu e-mail.</p></div>
+  
+  <button class="accordion">O conteúdo é para iniciantes?</button>
+  <div class="panel"><p>Sim! O eBook foi feito tanto para iniciantes quanto para quem já trabalha com confeitaria e quer aumentar suas vendas.</p></div>
+
+
+  <button class="accordion">Em quanto tempo posso começar a vender?</button>
+  <div class="panel"><p>Você pode aplicar as receitas e estratégias imediatamente. Muitos alunos já começam a vender na mesma semana.</p></div>
 
   <button class="accordion">Qual o prazo de entrega?</button>
   <div class="panel"><p>O eBook é entregue digitalmente imediatamente após a compra.</p></div>
@@ -535,11 +630,11 @@ footer a:hover{color:#000;}
 </section>
 
 <footer>
-  <p>&copy; 2025 Bolo Bom a Bessa. Todos os direitos reservados.</p>
+  <p>&copy; 2025 Mari Antum. Todos os direitos reservados.</p>
   <p>
-    <a href="#">Instagram</a> | 
+    <a href="https://www.instagram.com/mariantumconfeitaria?igsh=dndrNTRjZGxjamd4">Instagram</a> | 
     <a href="#">Facebook</a> | 
-    <a href="#">Contato</a>
+    <a href="https://wa.me/5599999999999">Contato</a>
   </p>
 </footer>
 
@@ -583,5 +678,3 @@ learnCards.forEach(card=>observer.observe(card));
 
 </body>
 </html>
-
-
